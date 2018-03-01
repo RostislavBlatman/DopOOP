@@ -1,10 +1,10 @@
-package cars;
+package main.cars;
 
 public abstract class AbstractCar {
 
     protected String master;
 
-    protected AbstractCar(String master){
+    protected AbstractCar(String master) {
         this.master = master;
     }
 

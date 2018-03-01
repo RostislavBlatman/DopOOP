@@ -1,4 +1,4 @@
-package cars;
+package main.cars;
 
 public class FreightCar extends AbstractCar {
 

@@ -1,4 +1,4 @@
-package cars;
+package main.cars;
 
 public class Supercar extends PassengerCar {
 
@@ -10,7 +10,7 @@ public class Supercar extends PassengerCar {
         return true;
     }
 
-    public boolean fasterThanSpeedOfSound(){
+    public boolean fasterThanSpeedOfSound() {
         return this.getMaxSpeed() > 1235;//inheritance
     }
 }
